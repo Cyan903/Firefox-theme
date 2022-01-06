@@ -1,4 +1,5 @@
-# firefox-theme
+# Firefox-theme
+
 My Firefox theme which mimics old chrome. 
 
 <img src="https://raw.githubusercontent.com/CyanPiano/static-github/main/firefox-theme/firefox-screenshot.png" />
