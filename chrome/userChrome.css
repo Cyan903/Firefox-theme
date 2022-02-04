@@ -20,9 +20,9 @@
     background-size: auto 100%, auto auto !important;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3csymbol id='topleft' viewBox='0 0 214 29'%3e%3cpath d='M14.3 0.1L214 0.1 214 29 0 29C0 29 12.2 2.6 13.2 1.1 14.3-0.4 14.3 0.1 14.3 0.1Z'%3e%3c/path%3e%3c/symbol%3e%3csymbol id='topright' viewBox='0 0 214 29'%3e%3cuse xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='%23topleft'%3e%3c/use%3e%3c/symbol%3e%3cclipPath id='crop'%3e%3c/clipPath%3e%3c/defs%3e%3csvg width='50%25' height='100%25' transfrom='scale(-1, 1)' fill='%23373737'%3e%3cuse xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='%23topleft' width='214' height='29' class='chrome-tab-background'%3e%3c/use%3e%3cuse xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='%23topleft' width='214' height='29' class='chrome-tab-shadow'%3e%3c/use%3e%3c/svg%3e%3cg transform='scale(-1, 1)'%3e%3csvg width='50%25' height='100%25' x='-100%25' y='0' fill='%23373737'%3e%3cuse xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='%23topright' width='214' height='29' class='chrome-tab-background'%3e%3c/use%3e%3cuse xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='%23topright' width='214' height='29' class='chrome-tab-shadow'%3e%3c/use%3e%3c/svg%3e%3c/g%3e%3c/svg%3e") !important;
 
-    /* Firefox stop autoupdating please :( */
+	/* Firefox stop autoupdating please :( */
     position: relative;
-    top: 8px;
+    top: 15px;
     margin: 0 !important;
 }
 
@@ -37,10 +37,10 @@ toolbox>#TabsToolbar[brighttext]>#tabbrowser-tabs>.tabbrowser-tab:hover>.tab-sta
 .tab-content {
     padding: 4px 13px 0 0 !important;
     padding-left: 16px !important;
-
-    /*  Firefox stop autoupdating please :( */
+    
+	/*  Firefox stop autoupdating please :( */
     position: relative;
-    top: 4px;
+    top: 11px;
 }
 
 .tab-close-button {
@@ -110,7 +110,7 @@ toolbox>#TabsToolbar[brighttext]>#tabbrowser-tabs>.tabbrowser-tab:hover>.tab-sta
     width: 0px !important;
 }
 
-#urlbar-background {
+#urlbar-background  {
     border: 1px solid rgb(60, 60, 60) !important;
     border-radius: 0 !important;
     background-color: #474749 !important;
@@ -185,8 +185,7 @@ tab.tabbrowser-tab:nth-child(1) {
 
 #tabs-newtab-button * {
     margin-top: 4px !important;
-    border-radius: 50% !important;
-    ;
+    border-radius: 50% !important;;
 }
 
 .tab-icon-sound-label {
