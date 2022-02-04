@@ -1,0 +1,27 @@
+{
+    "dependencies": {
+        "sass": "^1.49.7"
+    },
+    "name": "firefox-theme",
+    "description": "My Firefox theme which mimics old chrome.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    },
+    "scripts": {
+        "build-prod": "sass sass/main.sass dist/userChrome.css --style compressed",
+        "build": "sass sass/main.sass dist/userChrome.css",
+        "watch": "sass --watch sass/main.sass dist/userChrome.css --style compressed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CyanPiano/Firefox-theme.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CyanPiano/Firefox-theme/issues"
+    },
+    "homepage": "https://github.com/CyanPiano/Firefox-theme#readme"
+}
