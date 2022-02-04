@@ -1,0 +1,15 @@
+.tabbrowser-tab 
+    max-height: 29px !important
+    min-height: 29px !important
+    height: 29px !important
+    // 29px is the height of the svg
+    margin-top: 10px !important
+
+    &:first-child // old Chrome had a small gap near the start of the browser
+        margin-left: 10px !important
+
+.tab-content 
+    padding: 0 (29px - 10px) !important
+
+#tabs-newtab-button 
+    margin-top: calc(10px / 2) !important

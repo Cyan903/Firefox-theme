@@ -1,0 +1,8 @@
+active tab highlighting
+color url bar
+fix responsive collapsing
+add something new ?
+WHITE THEME
+
+https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox
+https://news-cdn.softpedia.com/images/news2/how-to-restore-the-classic-theme-in-google-chrome-69-522531-2.jpg
