@@ -5,10 +5,6 @@
     "name": "firefox-theme",
     "description": "My Firefox theme which mimics old chrome.",
     "version": "1.0.0",
-    "main": "index.js",
-    "devDependencies": {
-        "prettier": "^2.5.1"
-    },
     "scripts": {
         "build-prod": "sass sass/main.sass dist/userChrome.css --style compressed",
         "build": "sass sass/main.sass dist/userChrome.css",
