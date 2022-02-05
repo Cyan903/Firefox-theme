@@ -1,6 +1,3 @@
-active tab highlighting
-color url bar
-fix responsive collapsing
 add something new ?
 WHITE THEME
 
