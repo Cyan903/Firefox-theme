@@ -12,7 +12,7 @@
     "scripts": {
         "build-prod": "sass sass/main.sass dist/userChrome.css --style compressed",
         "build": "sass sass/main.sass dist/userChrome.css",
-        "watch": "sass --watch sass/main.sass dist/userChrome.css --style compressed"
+        "watch": "sass --watch sass/main.sass dist/userChrome.css"
     },
     "repository": {
         "type": "git",

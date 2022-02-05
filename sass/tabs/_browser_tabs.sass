@@ -1,9 +1,15 @@
-// browser tabs 
-
-.tab-background 
-    margin: 0 !important
-    border-radius: 0 !important
-    background: url($svg_tab) !important
+@mixin brownser_bg($bg, $bg_border)
+    background: url($bg) !important
     background-size: 100% 100% !important
     background-repeat: no-repeat !important
     background-position: bottom !important
+    border-bottom: 5px solid $bg_border !important
+    box-sizing: content-box !important
+
+.tab-background 
+    @include brownser_bg($svg_tab, $bgmain_border)
+    margin: 0 !important
+    border-radius: 0 !important
+
+    &[selected="true"]
+        @include brownser_bg($svg_tabselected, $bgmain_border_selected)
