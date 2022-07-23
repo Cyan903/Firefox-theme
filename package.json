@@ -6,7 +6,7 @@
     "description": "My Firefox theme which mimics old chrome.",
     "version": "1.0.0",
     "scripts": {
-        "build-prod": "sass sass/main.sass dist/userChrome.css --style compressed",
+        "build:prod": "sass sass/main.sass dist/userChrome.css --style compressed",
         "build": "sass sass/main.sass dist/userChrome.css",
         "watch": "sass --watch sass/main.sass dist/userChrome.css"
     },

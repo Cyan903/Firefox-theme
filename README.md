@@ -18,3 +18,7 @@ Then simply open the [browser toolbox](https://developer.mozilla.org/en-US/docs/
 pnpm build # uncompressed
 pnpm build-prod # compressed (recommended)
 ```
+
+## License
+
+  [MIT](LICENSE)
