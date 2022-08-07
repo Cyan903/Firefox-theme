@@ -6,6 +6,9 @@ My Firefox [userChrome.css](https://www.userchrome.org/) file. This theme has be
 
 <img src="https://raw.githubusercontent.com/CyanPiano/Static-github/main/firefox-theme/firefox-rewrite.png" />
 
+
+**IMPORTANT:** This only works with the Firefox default dark theme. Make sure to change your theme in [about:addons](about:addons).
+
 #### To edit...
 ```
 pnpm watch # watch sass and build on change 
