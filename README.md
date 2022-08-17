@@ -11,7 +11,7 @@ My Firefox [userChrome.css](https://www.userchrome.org/) file. This theme has be
 #### To edit...
 
 ```
-$ npm start watch # watch sass and build on change
+$ npm run watch # watch sass and build on change
 ```
 
 Simply open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) to modify `userChrome.css`.
@@ -19,8 +19,8 @@ Simply open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools
 #### To compile...
 
 ```sh
-$ npm build # uncompressed
-$ npm build:prod # compressed (recommended)
+$ npm run build # uncompressed
+$ npm run build:prod # compressed (recommended)
 ```
 
 ## License
