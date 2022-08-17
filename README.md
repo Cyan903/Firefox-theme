@@ -6,16 +6,18 @@ My Firefox [userChrome.css](https://www.userchrome.org/) file. This theme has be
 
 <img src="https://raw.githubusercontent.com/CyanPiano/Static-github/main/firefox-theme/firefox-rewrite.png" />
 
-
 **IMPORTANT:** This only works with the Firefox default dark theme. Make sure to change your theme in `about:addons`.
 
 #### To edit...
+
 ```
 $ npm start watch # watch sass and build on change
-````
+```
+
 Simply open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) to modify `userChrome.css`.
 
 #### To compile...
+
 ```sh
 $ npm build # uncompressed
 $ npm build:prod # compressed (recommended)
@@ -23,4 +25,4 @@ $ npm build:prod # compressed (recommended)
 
 ## License
 
-  [MIT](LICENSE)
+[MIT](LICENSE)
