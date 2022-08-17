@@ -11,15 +11,14 @@ My Firefox [userChrome.css](https://www.userchrome.org/) file. This theme has be
 
 #### To edit...
 ```
-pnpm watch # watch sass and build on change 
-# outputs to /dist/userChrome.css
+$ npm start watch # watch sass and build on change
 ````
-Then simply open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) and started changing `userChrome.css`.
+Simply open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) to modify `userChrome.css`.
 
 #### To compile...
-```
-pnpm build # uncompressed
-pnpm build-prod # compressed (recommended)
+```sh
+$ npm build # uncompressed
+$ npm build:prod # compressed (recommended)
 ```
 
 ## License
