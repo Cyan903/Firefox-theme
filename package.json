@@ -1,9 +1,9 @@
 {
     "dependencies": {
-        "sass": "^1.49.7"
+        "sass": "^1.57.1"
     },
     "name": "firefox-theme",
-    "description": "My Firefox theme which mimics old chrome.",
+    "description": "Firefox recreation of the old Chrome default dark theme.",
     "version": "1.0.0",
     "scripts": {
         "build:prod": "sass sass/main.sass dist/userChrome.css --style compressed",
