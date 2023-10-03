@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "sass": "^1.57.1"
+        "sass": "^1.68.0"
     },
     "name": "firefox-theme",
     "description": "Firefox recreation of the old Chrome default dark theme.",
