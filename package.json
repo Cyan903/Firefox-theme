@@ -6,9 +6,9 @@
     "description": "Firefox recreation of the old Chrome default dark theme.",
     "version": "1.0.0",
     "scripts": {
-        "build:prod": "sass sass/main.sass dist/userChrome.css --style compressed",
-        "build": "sass sass/main.sass dist/userChrome.css",
-        "watch": "sass --watch sass/main.sass dist/userChrome.css"
+        "build": "sass sass/main.sass dist/userChrome.css --style compressed",
+        "build:dev": "sass sass/main.sass dist/userChrome.css",
+        "dev": "sass --watch sass/main.sass dist/userChrome.css"
     },
     "repository": {
         "type": "git",
