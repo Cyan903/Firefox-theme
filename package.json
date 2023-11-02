@@ -4,20 +4,13 @@
     },
     "name": "firefox-theme",
     "description": "Firefox recreation of the old Chrome default dark theme.",
-    "version": "1.0.0",
     "scripts": {
-        "build": "sass sass/main.sass dist/userChrome.css --style compressed",
-        "build:dev": "sass sass/main.sass dist/userChrome.css",
-        "dev": "sass --watch sass/main.sass dist/userChrome.css"
+        "build": "sass src/main.sass dist/userChrome.css --style compressed",
+        "build:dev": "sass src/main.sass dist/userChrome.css",
+        "dev": "sass --watch src/main.sass dist/userChrome.css",
+        "format": "prettier . --write"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/CyanPiano/Firefox-theme.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/CyanPiano/Firefox-theme/issues"
-    },
-    "homepage": "https://github.com/CyanPiano/Firefox-theme#readme"
+    "devDependencies": {
+        "prettier": "^3.0.3"
+    }
 }

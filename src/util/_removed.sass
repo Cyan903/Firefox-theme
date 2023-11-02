@@ -1,11 +1,9 @@
-// Elements that I think have no use and don't want in my browser.
 @mixin forceHide($hover: false)
     display: none !important
-    
+
     @if $hover
-        &:hover 
+        &:hover
             display: none !important
 
-
-.tab-icon-sound-label // playing/muted text 
+.tab-icon-sound-label // playing/muted text
     @include forceHide
