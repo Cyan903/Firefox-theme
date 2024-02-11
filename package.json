@@ -1,7 +1,4 @@
 {
-    "dependencies": {
-        "sass": "^1.68.0"
-    },
     "name": "firefox-theme",
     "description": "Firefox recreation of the old Chrome default dark theme.",
     "scripts": {
@@ -11,6 +8,9 @@
         "format": "prettier . --write"
     },
     "devDependencies": {
-        "prettier": "^3.0.3"
+        "prettier": "^3.2.5"
+    },
+    "dependencies": {
+        "sass": "^1.70.0"
     }
 }
