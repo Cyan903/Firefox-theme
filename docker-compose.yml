@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  theme:
+    build: .
+    volumes:
+      - ./dist:/app/dist
+      - ./src:/app/src
+    entrypoint: ["npm", "run", "dev"]

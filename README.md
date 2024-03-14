@@ -4,23 +4,29 @@
 
 My Firefox [userChrome.css](https://www.userchrome.org/) theme. A recreation of the old Chrome default dark.
 
-<img src="https://raw.githubusercontent.com/CyanPiano/Static-github/main/firefox-theme/firefox-rewrite.png" />
+![theme](/assets/rewrite.png)
 
-**IMPORTANT:** This only works with the Firefox default dark theme. Make sure to change your theme in `about:addons`.
+**IMPORTANT:** This only works with the default Firefox dark theme. Make sure to change your theme in `about:addons`.
 
-#### To edit...
+## Development
 
-```
-$ pnpm run dev # watch sass and build on change
+With `pnpm` or `docker`:
+
+```sh
+pnpm run dev
+
+# OR
+
+docker compose up
 ```
 
 Open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) to modify `userChrome.css`.
 
-#### To compile...
+## Building
 
 ```sh
-$ pnpm run build # compressed
-$ pnpm run build:dev # uncompressed
+pnpm run build # compressed
+pnpm run build:dev # uncompressed
 ```
 
 ## License
