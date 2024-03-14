@@ -6,7 +6,8 @@ My Firefox [userChrome.css](https://www.userchrome.org/) theme. A recreation of 
 
 ![theme](/assets/rewrite.png)
 
-**IMPORTANT:** This only works with the default Firefox dark theme. Make sure to change your theme in `about:addons`.
+> [!NOTE]
+> This only works with the default Firefox dark theme. Make sure to change your theme in `about:addons`.
 
 ## Development
 
