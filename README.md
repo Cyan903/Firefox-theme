@@ -13,20 +13,18 @@ My Firefox [userChrome.css](https://www.userchrome.org/) theme. A recreation of 
 With `pnpm` or `docker`:
 
 ```sh
-pnpm run dev
-
+$ pnpm run dev
 # OR
-
-docker compose up
+$ docker compose up
 ```
 
-Open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) to modify `userChrome.css`.
+Open the [browser toolbox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Toolbox) to see live changes.
 
 ## Building
 
 ```sh
-pnpm run build # compressed
-pnpm run build:dev # uncompressed
+$ pnpm run build # compressed
+$ pnpm run build:dev # uncompressed
 ```
 
 ## License
