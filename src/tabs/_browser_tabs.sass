@@ -1,3 +1,6 @@
+@use "../util/colors"
+@use "../util/svg"
+
 @mixin browser_bg($bg, $bg_border)
     background: url($bg) !important
     background-size: 100% 100% !important
@@ -6,10 +9,10 @@
     box-sizing: content-box !important
 
 .tab-background
-    @include browser_bg($svg_tab, $bgmain_border)
+    @include browser_bg(svg.$svg_tab, colors.$bgmain_border)
     margin: 0 !important
     border-radius: 0 !important
     box-shadow: none !important
 
 .tabbrowser-tab[selected="true"] .tab-background
-    @include browser_bg($svg_tabselected, $bgmain_border_selected)
+    @include browser_bg(svg.$svg_tabselected, colors.$bgmain_border_selected)

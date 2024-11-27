@@ -1,11 +1,15 @@
+@use "../util/svg"
+
 #tabs-newtab-button .toolbarbutton-icon,
 #tabs-newtab-button:hover .toolbarbutton-icon
-    background: url($svg_newtab) !important
+    background: url(svg.$svg_newtab) !important
     background-repeat: no-repeat !important
     background-position-y: 7px !important
     opacity: 0.5
     list-style-image: none !important
     width: 100px !important
+    position: relative
+    top: 5px
 
 #tabs-newtab-button:hover .toolbarbutton-icon
     opacity: 0.7 !important
