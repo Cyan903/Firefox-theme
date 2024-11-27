@@ -1,11 +1,13 @@
 {
     "name": "firefox-theme",
+    "version": "0.1.0",
     "description": "Firefox recreation of the old Chrome default dark theme.",
     "scripts": {
         "build": "sass src/main.sass dist/userChrome.css --style compressed",
         "build:dev": "sass src/main.sass dist/userChrome.css",
         "dev": "sass --watch src/main.sass dist/userChrome.css",
-        "format": "prettier . --write"
+        "format": "prettier . --write",
+        "publish": "zip -r dist/chrome.zip dist/userChrome.*"
     },
     "devDependencies": {
         "prettier": "^3.4.1",
